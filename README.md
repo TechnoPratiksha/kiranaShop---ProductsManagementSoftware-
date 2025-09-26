@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🛒 Kirana Inventory Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Problem Statement
+Small shopkeepers (kirana stores) face challenges in **managing product inventory**, especially for items with **expiry dates**.  
+Manual tracking often leads to:
+- Losses due to expired stock ❌  
+- Missed opportunities to sell products before expiry ⚠️  
+- Customer dissatisfaction  
 
-## Available Scripts
+👉 This project solves the problem by creating a **digital inventory management system** that clearly categorizes products into:  
+- 🟢 Fresh  
+- 🟠 Expiring Soon  
+- 🔴 Expired  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Project Motive
+The goal of this project is to **digitize stock management** for small businesses using modern technologies.  
+It highlights my ability to work on **end-to-end full-stack development**, apply **concepts like Axios, CORS, REST APIs**, and also handle **containerization & deployment**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### **Frontend**
+- ⚛️ React.js — UI library  
+- 🎨 Material-UI — for a professional, responsive design  
+- 🌐 Axios — to make HTTP requests to the backend  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Backend**
+- ☕ Spring Boot — to build REST APIs  
+- 🗄️ PostgreSQL — relational database for data persistence  
+- 📦 Spring Data JPA — ORM for DB operations  
+- 🔓 CORS — enabled for frontend-backend communication  
 
-### `npm run build`
+### **Deployment & Containerization**
+- 🐳 **Docker** — containerized the backend for portability  
+- ☁️ **Render** — hosted the backend API  
+- ⚡ **Vercel** — hosted the frontend React app  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Features
+- ➕ Add new products (with purchase & expiry dates)  
+- 📋 View all products in a **dashboard**  
+- 🟢 **Fresh products**  
+- 🟠 **Expiring soon (within 7 days)**  
+- 🔴 **Expired products**  
+- 🗑️ Delete products when no longer needed  
+- 🔗 Frontend connects to backend via **Axios**  
+- 🌍 CORS handled in backend for smooth deployment  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📚 Concepts Demonstrated
+- Building **REST APIs** with Spring Boot  
+- **React hooks & state management**  
+- **Axios** for API requests  
+- **CORS** policy handling for cross-origin requests  
+- **PostgreSQL** schema design & integration with Spring Data JPA  
+- **Docker containerization** of backend service  
+- **Full-stack deployment** using Render (backend) and Vercel (frontend)  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Deployment Links
+- **Frontend (React, Vercel):** 👉 [Live Demo](https://your-frontend-url.vercel.app)  
+- **Backend (Spring Boot, Render):** 👉 [API Endpoint](https://your-backend-url.onrender.com/api/products)  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🐳 Dockerization (Backend)
+The backend is containerized with Docker for easy deployment:
 
-## Learn More
+```bash
+# Build Docker image
+docker build -t kirana-backend .
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Run Docker container
+docker run -p 8080:8080 kirana-backend
