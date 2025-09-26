@@ -19,6 +19,11 @@ The goal of this project is to **digitize stock management** for small businesse
 It highlights my ability to work on **end-to-end full-stack development**, apply **concepts like Axios, CORS, REST APIs**, and also handle **containerization & deployment**.
 
 ---
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/4d3cdab1-cf8f-4820-a796-2e60190c89e6" />
+<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/8ebf0ca7-1c8f-497f-b19a-d6b73863a8c5" />
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/47b70dc4-8e82-4bbb-8a59-301808fee07b" />
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/cc99c1ce-bb2c-4229-a315-d94830099643" />
+
 
 ## 🛠️ Tech Stack
 
@@ -64,9 +69,8 @@ It highlights my ability to work on **end-to-end full-stack development**, apply
 ---
 
 ## 🚀 Deployment Links
-- **Frontend (React, Vercel):** 👉 [Live Demo](https://your-frontend-url.vercel.app)  
-- **Backend (Spring Boot, Render):** 👉 [API Endpoint](https://your-backend-url.onrender.com/api/products)  
-
+- **Frontend (React, Vercel):** 👉 [Live Demo](https://kirana-shop-products-management-sof.vercel.app/)  
+- **Backend (Spring Boot, Render)
 ---
 
 ## 🐳 Dockerization (Backend)
